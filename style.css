@@ -9,33 +9,13 @@
 
 #header{
     background-color: #0C0C0D;
-    padding: 32px 64px;
+    padding: 16px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .title{
-    font-size: 64px;
+    font-size: 48px;
     font-family: "Jolly Lodger", system-ui;
     font-weight: normal;
-}
-nav{
-    width: 300px;
-}
-.list{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.list .list__item{
-    font-size: 28px;
-    font-weight: bold;
-    font-family: "Jolly Lodger", system-ui;
-    font-weight: normal;
-    cursor: pointer;
-}
-.list .list__item:hover{
-    text-decoration: underline;
-    opacity: 0.7;
 }
