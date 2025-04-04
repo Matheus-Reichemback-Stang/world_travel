@@ -104,9 +104,8 @@ body{
 }
 
 #mainContent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 960px 334px;
 }
 #mainContent .articles{
     display: grid;
@@ -125,15 +124,15 @@ body{
     font-weight: bold;
 }
 #mainContent .categories{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 16px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 0 16px 0 24px;
     width: 100%;
 }
 #mainContent .categories h4{
     font-size: 32px;
+    margin-top: 12px;
 }
 .categories .categories__button{
     border-radius: 12px;
@@ -142,7 +141,8 @@ body{
     font-weight: bold;
     border: 3px solid white;
     color: white;
-    padding: 10px 0;
+    padding: 8px 0;
+    margin-top: 16px;
     width: 100%;
 }
 .categories .categories__button:hover{
