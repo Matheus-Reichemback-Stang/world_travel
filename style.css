@@ -23,16 +23,32 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     width: 100vw;
     top: 0;
     left: 0;
+    overflow-x: hidden;
 }
 .title{
     font-size: 48px;
     font-family: "Jolly Lodger", system-ui;
     font-weight: normal;
+}
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#list li a{
+    font-size: 32px;
+    margin-right: 32px;
+    font-family: "Jolly Lodger", system-ui;
+    cursor: pointer;
+    text-decoration: none;
+}
+#list li a:hover{
+    text-decoration: underline;
 }
 
 
