@@ -26,4 +26,5 @@ elemento da página. Já a **estrutura**, são os elementos presentes na página
 O ***CSS***(Cascading Style Sheets) é uma linguagem utilizada para construir o design de uma página em si. Enquanto o HTML coloca seus elementos na página, o CSS os organiza para ficarem mais atrativos ao usuário, ademais o CSS permite criar páginas animadas
 e dinâmicas. Para usar o CSS, temos que usar os ***seletores, propriedades e valores***. Os **seletores** podem ser definidos por ***Tags, IDs e Classes***, de modo geral, o **seletor é o item(Tag) que vai ser alterado**. As **propriedades** são utilizadas para 
 causar os efeitos, por exemplo '***font-size***', essa propriedade é utilizada para alterar o tamanho da fonte de textos. Já os **valores**, são o efeito em si, para uma propriedade funcionar ela precisa de um valor para se basear, no mesmo exemplo de antes, digamos que temos o '**font-size**' assim: ***font-size: 16px;***, isso quer dizer que a propriedade ***font-size*** vai ter o valor de ***16px***, ou seja, o seletor que contém essa informação vai ter o texto ou os textos no tamanho de 16px.
+
 ---
